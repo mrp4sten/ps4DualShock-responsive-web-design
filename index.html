@@ -8,20 +8,23 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="main.css" />
+
+    <!-- JS -->
+    <script defer src="/index.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="navbar">
         <img src="img/logo.png" alt="logo" class="logo" />
         <nav>
-          <ul>
+          <ul id="menuList">
             <li><a href="">Game Controllers</a></li>
             <li><a href="">VR Accesories</a></li>
             <li><a href="">Media Remotes</a></li>
             <li><a href="">Others</a></li>
           </ul>
         </nav>
-        <img src="img/menu.png" alt="menu" class="menu-icon" />
+        <img id="toggleMenu" src="img/menu.png" alt="menu" class="menu-icon" />
       </div>
 
       <div class="row">
@@ -39,7 +42,20 @@
         </div>
         <div class="col-2">
           <img src="img/controller.png" alt="controller" class="controller" />
+          <div class="color-box"></div>
+          <div class="add-btn">
+            <img src="img/add.png" alt="add" />
+            <p>
+              <small>Add to Cart</small>
+            </p>
+          </div>
         </div>
+      </div>
+
+      <div class="social-links">
+        <img src="img/fb.png" alt="facebook" />
+        <img src="img/tw.png" alt="twitter" />
+        <img src="img/ig.png" alt="instagram" />
       </div>
     </div>
   </body>
